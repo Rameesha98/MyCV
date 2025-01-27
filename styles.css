@@ -1,0 +1,122 @@
+
+body {
+    width: 21cm; 
+	min-height: 29.7cm;
+	padding: 1cm;  
+	margin: auto;   
+
+}
+
+.page			{  
+		width: 21cm; 
+		min-height: 29.7cm;
+		padding: 1cm;  
+		margin: auto;   
+		border: 1px solid #ccc;  
+				}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.left-panel {
+    flex: 1;
+    background-color: #b9bcc4;
+    color: rgb(43, 42, 42);
+    padding: 20px;
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.left-panel h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.personal-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.8;
+}
+
+.personal-details ul li {
+    font-size: 14px;
+}
+
+.right-panel {
+    flex: 2;
+    padding: 20px;
+}
+
+.right-panel section {
+    margin-bottom: 20px;
+}
+
+.right-panel h2 {
+    font-size: 20px;
+    color: #2a3d66;
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.right-panel ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-panel ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.right-panel p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.table 			{
+    position : center;
+    width: 80%;
+    margin-left: 10px;
+    }
+
+.table th 		{
+    text-align: center;
+    }
+
+.btn-print 		{
+	background-color: rgb(77, 182, 77);
+	color: rgb(255, 252, 252);
+	padding: 12px;
+	border: none;
+	cursor: pointer;
+	width: 20%;
+	margin-top: 20px;
+	font-size: 18px;
+				}
+						
+.btn-print:hover 	{
+	background-color: #006b29;
+				}
+							
+  
